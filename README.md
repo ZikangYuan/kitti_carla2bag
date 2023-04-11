@@ -58,3 +58,14 @@ KITTI-CARLA
 ├──────────06
 └──────────07
 ```
+
+The "correct" directory saves calibrated LiDAR sweeps, which are obtained by [kitti-carla_calib](https://github.com/ZikangYuan/kitti-carla_calib) tool.
+
+5. Run
+
+```
+source devel/setup.bash
+roslaunch kitti-carla_2bag kitti-carla_2bag.launch
+```
+
+Please change the varibales about PATH in launch file before running.
