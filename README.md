@@ -28,12 +28,33 @@ cd /kitti-carla2bag/src
 3. Clone and build this repository
 
 ```
-git clone https://github.com/ZikangYuan/kitti-carla_calib.git
-cd kitti-calra_calib
-mkdir include
-mkdir lib
-mkdir build
-cd build
-cmake ..
-make
+git clone https://github.com/ZikangYuan/kitti-carla2bag.git
+cd ..
+catkin_make
+```
+
+4. Adjust directory structure
+
+Please make sure that the directory format of each KITTI-CARLA is as follow:
+
+```
+KITTI-CARLA  
+├──────────01
+           ├─────full_ts_camera.txt
+           ├─────images_rgb
+                 ├─────────0000_0.png
+                 ├─────────0001_0.png
+                 ├─────────......
+                 └─────────4999_0.png
+           ├─────correct
+                 ├─────────frame_0000.ply
+                 ├─────────frame_0001.ply
+                 ├─────────......
+                 └─────────frame_4999.ply
+├──────────02
+├──────────03
+├──────────04
+├──────────05
+├──────────06
+└──────────07
 ```
