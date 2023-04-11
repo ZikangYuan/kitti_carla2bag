@@ -35,7 +35,7 @@ catkin_make
 
 4. Adjust directory structure
 
-Please make sure that the directory format of each KITTI-CARLA is as follow:
+Please make sure that the directory format of KITTI-CARLA is as follow:
 
 ```
 KITTI-CARLA  
