@@ -65,7 +65,7 @@ The "correct" directory saves calibrated LiDAR sweeps, which are obtained by [ki
 
 ```
 source devel/setup.bash
-roslaunch kitti-carla_2bag kitti-carla_2bag.launch
+roslaunch kitti-carla2bag kitti-carla2bag.launch
 ```
 
 Please change the varibales about PATH in launch file before running.
