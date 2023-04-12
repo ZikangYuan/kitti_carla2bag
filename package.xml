@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>kitti-carla2bag</name>
+  <name>kitti_carla2bag</name>
   <version>0.0.0</version>
 
   <description>
