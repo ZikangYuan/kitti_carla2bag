@@ -28,7 +28,7 @@ cd /kitti-carla2bag/src
 3. Clone and build this repository
 
 ```
-git clone https://github.com/ZikangYuan/kitti-carla2bag.git
+git clone https://github.com/ZikangYuan/kitti_carla2bag.git
 cd ..
 catkin_make
 ```
@@ -65,7 +65,7 @@ The "correct" directory saves calibrated LiDAR sweeps, which are obtained by [ki
 
 ```
 source devel/setup.bash
-roslaunch kitti-carla2bag kitti-carla2bag.launch
+roslaunch kitti_carla2bag kitti_carla2bag.launch
 ```
 
 Please change the varibales about PATH in launch file before running.
