@@ -378,7 +378,7 @@ void loadTimestamp(const std::string &path, std::vector<int> &vIndex, std::vecto
 
 int main(int argc, char** argv)
 {
-    ros::init(argc, argv, "kitti-carla2bag");
+    ros::init(argc, argv, "kitti_carla2bag");
     ros::NodeHandle n("~");
     std::string dataset_folder, sequence_number, output_bag_file;
     n.getParam("dataset_folder", dataset_folder);
