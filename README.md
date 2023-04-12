@@ -21,8 +21,8 @@
 2. Create a new ROS workspace
 
 ```
-mkdir /kitti-carla2bag/src
-cd /kitti-carla2bag/src
+mkdir /kitti_carla2bag/src
+cd /kitti_carla2bag/src
 ```
 
 3. Clone and build this repository
