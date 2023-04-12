@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(kitti-carla2bag)
+project(kitti_carla2bag)
 
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
@@ -33,8 +33,8 @@ catkin_package(
   INCLUDE_DIRS include
 )
 
-add_executable(kitti-carla2bag src/kitti-carla2bag.cpp)
-target_link_libraries(kitti-carla2bag ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
+add_executable(kitti_carla2bag src/kitti_carla2bag.cpp)
+target_link_libraries(kitti_carla2bag ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
 
 
