@@ -1,4 +1,4 @@
-# kitti-carla2bag
+# kitti_carla2bag
 
 **This sourced code is for converting data of [KITTI-CARLA dataset](https://npm3d.fr/kitti-carla) to ROS bag format.**
 
